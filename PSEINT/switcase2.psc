@@ -34,7 +34,7 @@ Algoritmo switcase2
         SiNo
 			Escribir"ingresa el cupo"
 			leer cup
-			Escribir"¿Desea elegir la categoria de la tarjeta? s o n"
+			Escribir"Â¿Desea elegir la categoria de la tarjeta? s o n"
 			leer rp
 			Si rp="s" Entonces
 				Escribir "elija el numero de categoria a la cual desea agregarle el aumento"
@@ -78,9 +78,9 @@ Algoritmo switcase2
 							Escribir "su cupo total es:", desc
 						FinSi
 					FinSi
-				Fin Si
-			Fin Si
-        Fin Si
+				FinSi
+			FinSi
+        FinSi
     SiNo
         Escribir "numero no valido"
     Fin Si
