@@ -83,5 +83,5 @@ Algoritmo switcase2
         FinSi
     SiNo
         Escribir "numero no valido"
-    Fin Si
+    FinSi
 FinAlgoritmo
