@@ -116,7 +116,7 @@ Algoritmo ciclos1
 			De Otro Modo:
 				Mostrar "Departamento no valido"
 		FinSegun
-	Fin Para
+	FinPara
 	//Asignacion a los promedios de edad:
 	promEdadCont <- (promEdadCont / contadorCont);
 	promEdadSis <- (promEdadSis / contadorSis);
