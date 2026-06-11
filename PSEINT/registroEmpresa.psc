@@ -1,9 +1,9 @@
 Algoritmo ciclos1
 	Definir codigo, nombre, apellido, genero como texto
 	Definir edad, salario,empleado, departamento,mayorEdad,menorEdad  como numero
-	//Asignaci髇 de valores a las variables
-	mayorEdad <- -99999999;
-	menorEdad <- 99999999;
+	//Asignaci贸n de valores a las variables
+	mayorEdad <- -999;
+	menorEdad <- 999;
 	promSalarioCont <- 0; 
 	promSalarioSis <- 0;
 	promSalarioNom <- 0;
@@ -21,8 +21,8 @@ Algoritmo ciclos1
 	contadorNom <- 0;
 	contadorProd<- 0;
 	contadorComp <- 0;
-	mayorSalarioSis <- -9999999999999;
-	menorSalarioSis <- 99999999999999;
+	mayorSalarioSis <- -999;
+	menorSalarioSis <- 999;
 	contadorHomb <- 0;
 	contadorMuj <- 0;
 	//Proceso;
@@ -124,7 +124,7 @@ Algoritmo ciclos1
 	promEdadProd <- (promEdadProd / contadorProd);
 	promEdadComp <- (promEdadComp / contadorComp);
 	
-	//Asiganci髇 a promedio de salarios:
+	//Asiganci贸n a promedio de salarios:
 	promSalarioCont <- (promSalarioCont / contadorCont);
 	promSalarioSis <- (promSalarioSis / contadorSis);
 	promSalarioNom <- (promSalarioNom / contadorNom);
@@ -142,8 +142,8 @@ Algoritmo ciclos1
 	//Promedio de edad por departamento:
 	Mostrar "El promedio de edad del departamento de Contabilidad es: ", promEdadCont
 	Mostrar "El promedio de edad del departamento de Sistemas es: ", promEdadSis
-	Mostrar "El promedio de edad del departamento de N髆ina es: ", promEdadNom
-	Mostrar "El promedio de edad del departamento de Producci髇 es: ", promEdadProd
+	Mostrar "El promedio de edad del departamento de N贸mina es: ", promEdadNom
+	Mostrar "El promedio de edad del departamento de Producci贸n es: ", promEdadProd
 	Mostrar "El promedio de edad del departamento de Compras es: ", promEdadComp
 	
 	//Promedio de salario mujeres y hombres:
@@ -154,7 +154,7 @@ Algoritmo ciclos1
 	Mostrar "El salario promedio del departamento de contabilidad es: ", promSalarioCont;
 	Mostrar "El salario promedio del departamento de Sistemas es: ", promSalarioSis;
 	Mostrar "El salario promedio del departamento de Nomina es: ", promSalarioNom;
-	Mostrar "El salario promedio del departamento de Producci髇 es: ", promSalarioProd;
+	Mostrar "El salario promedio del departamento de Producci贸n es: ", promSalarioProd;
 	Mostrar "El salario promedio del departamento de Compras es: ", promSalarioComp;
 	
 	//Datos del mayor salario de sistemas
