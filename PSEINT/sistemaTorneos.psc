@@ -172,5 +172,5 @@ Algoritmo sistemaTorneos
 				Mostrar "gracias por usar el sistema :)";
 		FinSegun
 	FinMientras
-	
+	// 52/100
 FinAlgoritmo
