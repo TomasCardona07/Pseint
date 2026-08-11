@@ -136,15 +136,15 @@ Algoritmo sistemaCalificacion
 						Mostrar "nota del taller: ",taller[c];
 						Mostrar "nota final: ",notaFinal[c];
 						si(notaFinal[c] >= 3) Entonces
-							Mostrar "ESTADO: APROBÓ"
+							Mostrar "ESTADO: APROBÃ“"
 						SiNo
-							Mostrar "ESTADO: REPROBÓ"
+							Mostrar "ESTADO: REPROBÃ“"
 						FinSi
 						contBusqueda <- contBusqueda +1;
 					FinSi
 				FinPara
 				si(contBusqueda = 0) Entonces
-					Mostrar "no se encontró el alumno"
+					Mostrar "no se encontrÃ³ el alumno"
 				FinSi
 			5:
 				//nota final mas alta
@@ -173,4 +173,5 @@ Algoritmo sistemaCalificacion
 				Mostrar "gracias por usar el sistemas :)";
 		FinSegun
 	FinMientras
+// 1H, 10 Min
 FinAlgoritmo
